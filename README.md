@@ -3,7 +3,8 @@ The projects show the amazing capability of how you can create beautiful login p
 
 Inserting a stylesheet to a java page:
 
-Scene scene = new Scene(layout, 500, 400);
+Scene scene = new Scene(layout, 500, 400);<br />
+
 scene.getStylesheets().add(Login.class.getResource("Login.css").toExternalForm());
 
 
