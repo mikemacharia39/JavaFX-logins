@@ -1,0 +1,48 @@
+
+root { 
+    display: block;
+}
+
+.root {
+     -fx-background-image: url("/img/login4.png");
+     -fx-background-repeat: no-repeat;
+     -fx-background-size:100% 100%;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#actiontarget {
+  -fx-fill: #FF0000;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.4) , 0,0,0,1 );  
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+    -fx-font-size:15px;
+    -fx-background-color: linear-gradient(#2D5AD2, #2A5058);
+   
+}
+
+.button:hover {
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 6 );
+}
+#red {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-text-fill: white;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+    -fx-font-size:15px;
+    -fx-padding: 4 7 5 7;
+  /*  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );      */
+}
+#red:hover {
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 6 );
+}
